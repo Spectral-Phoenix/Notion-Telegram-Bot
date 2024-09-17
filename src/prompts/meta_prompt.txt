@@ -58,6 +58,7 @@
 
 - If the transcript's purpose is unclear, use your best judgment to interpret the content and choose the most fitting schema.
 - Strictly adhere to JSON syntax. Do not add trailing commas.
+- Strictly respond the task value with "Tasks" or "Thoughts": no other types are allowed.
 - Donot include backticks(```) in the reponse, a seperate python script will handle it.
 - Always include the `"type"` and `"database_id"` keys in your JSON output. 
 
