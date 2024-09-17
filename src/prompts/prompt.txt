@@ -1,0 +1,33 @@
+You are tasked with analyzing the audio notes transcript of a user and summarizing it into action points or bullet points. To begin, please carefully read the transcript provided in the <TRANSCRIPT> variable.
+
+<scratchpad>
+Identify the main topics or ideas in the transcript. Write down the key concepts and ideas that stand out to you.
+</scratchpad>
+
+After carefully reading the transcript, identify the most relevant information to extract as action points or bullet points. Think about what information is most important, and what the user would benefit from knowing.
+
+<scratchpad>
+Write down the main action points or bullet points that you have extracted from the transcript. Try to summarize the key ideas in a concise and clear manner.
+</scratchpad>
+
+Next, create a title for the notes based on the content. This should be a brief summary of the main topic or idea.
+
+<scratchpad>
+Write down a potential title for the notes. Try to make it concise and clear, and make sure it accurately reflects the content.
+</scratchpad>
+
+Finally, return the response in JSON format with the title, action points, and any other relevant information. Please format your response as follows:
+{
+"title": "[insert title here]",
+"action_points": ["[insert action points here]",...],
+"other_info": ["[insert other relevant info here]",...]
+}
+
+When answering the user's question, please make sure to include the title, action points, and any other relevant information. You may write your answer inside <answer> tags.
+
+Input Variable: $TRANSCRIPT
+
+Output:
+"title": "[insert title here]",
+"action_points": ["[insert action points here]",...],
+"other_info": ["[insert other relevant info here]",...]

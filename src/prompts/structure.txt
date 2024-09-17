@@ -1,0 +1,17 @@
+Generated on: 2024-09-17 09:43:19
+
+- Cards DB (ID: 00310f0a-c378-46f7-a436-7a0b016a8360)
+    Description: This is the parent database for all the databases. It is not meant to store any information
+    Schema:
+        Name: title 
+- Tasks DB (ID: 6967e39a-06fb-4619-acba-4df67971cb15)
+    Description: This Database is used to store all the important tasks that i need to do. The tasks are categorized mainly based on the status of the task and importance of the tasks.
+    Schema:
+        Status: status [Not started (ID: c212d4da-276c-4f43-a2cc-95bf8cabcd56), In progress (ID: a166a5b4-a8ad-4ba7-8468-46f27ed29e56), Done (ID: 3b3b37b2-8104-4bf1-a40d-13642c8ca16a)]
+        Name: title 
+- Notes DB (ID: fea32743-8ca8-41c0-b5ba-36991e9df0ee)
+    Description: This Database is used to store all kinds of Random Thoughts, Ideas, Views of myself in an organized way to recall later.
+    Schema:
+        Created: created_time 
+        Tags: multi_select [Tech (ID: 2416cdb4-20c1-4fec-ac45-5b6207cb2610)] (You can add additional tags if required)
+        Name: title 
